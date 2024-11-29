@@ -3,7 +3,7 @@
   "displayName": "Adeso Themes Pack",
   "description": "Pack of various dark and light themes.",
   "publisher": "StephaneAdeso",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "scripts": {
     "build": "tsc && node dist/index.js",
     "watch": "nodemon",
