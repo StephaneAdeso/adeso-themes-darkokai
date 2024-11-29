@@ -17,10 +17,15 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [1.1.3] 2024-11-29
 
+### Added
+
+- Added [documentation](docs/documentation.md).
+
 ### Changed
 
 - Updated Changelog and using ISO 8601 date format.
 - Updated dependencies.
+- Optimized bundle size.
 
 ## [1.1.2] 25-08-2023
 

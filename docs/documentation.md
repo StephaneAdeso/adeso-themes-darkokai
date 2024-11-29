@@ -42,9 +42,10 @@ Check this [Semantic Highlight Guide](https://code.visualstudio.com/api/language
 
 To develop the theme you will have to:
 
-1. debug the theme by pressing the F5 key. This will open a new VSCode window with youre theme.
-2. To discover what is the TextMate code you want to change, you can use the [Scope inspector](https://code.visualstudio.com/api/language-extensions/syntax-highlight-guide#scope-inspector) by pressing F1 to open the command palette and the search for `Developer: inspect editor tokens and scopes`.
-3. Now that the inspector is toggle on, just clic in the part you are interested and you will see a popup window with the information and textmate scope.
+1. Execute the `watch` script.
+2. Debug the theme by pressing the F5 key. This will open a new VSCode window with youre theme.
+3. To discover what is the TextMate code you want to change, you can use the [Scope inspector](https://code.visualstudio.com/api/language-extensions/syntax-highlight-guide#scope-inspector) by pressing F1 to open the command palette and the search for `Developer: inspect editor tokens and scopes`.
+4. Now that the inspector is toggle on, just clic in the part you are interested and you will see a popup window with the information and textmate scope.
 
 > **Tips**:
 >

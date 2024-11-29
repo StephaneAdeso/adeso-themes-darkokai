@@ -13,6 +13,10 @@ const jsonThemeFile = Object.assign(
 
 const jsonString = JSON.stringify(jsonThemeFile, null, 2);
 
+// Inline comment
+/**
+ * jsdoc comment
+ */
 fs.writeFileSync(
   `${__dirname}\\..\\themes\\Adeso-Darkokai-color-theme.json`,
   jsonString

@@ -54,22 +54,22 @@ export const getTheme = (): Theme => {
         border: color2,
         debuggingBackground: null,
         debuggingBorder: null,
-        debuggingForeground: '#ffffff',
+        debuggingForeground: "#ffffff",
         itemActiveBackground: null,
         itemErrorBackground: null,
         itemErrorForeground: null,
         itemFocusBorder: null,
         itemRemoteBackground: color2,
-        ItemRemoteForeground: '#ffffff',
+        ItemRemoteForeground: "#ffffff",
         itemsForeground: color1,
         itemsHoverBackground: null,
         itemWarningBackground: null,
         itemWarningForeground: null,
         noFolderBackground: null,
         noFolderBorder: null,
-        noFolderForeground: '#ffffff',
+        noFolderForeground: "#ffffff",
         offlineBackground: null,
-        offlineForeground: '#ffffff',
+        offlineForeground: "#ffffff"
       },
       tabs: {
         activeBackground: color2Alpha,
@@ -87,7 +87,7 @@ export const getTheme = (): Theme => {
         hoverBackground: color1Alpha,
         inputBackground: background1Bright,
         buttonBackground: color1Alpha,
-        foreground: foreground,
+        foreground: foreground
       },
       lists: {
         listActiveSelectionBackground: color1Alpha,
@@ -124,8 +124,7 @@ export const getTheme = (): Theme => {
         globalForeground: foreground,
         globalFocusBorder: color1,
         scrollbarShadow: transparent
-      },
-
+      }
     },
     code: {
       boolean: "#c09ad9",
@@ -138,7 +137,7 @@ export const getTheme = (): Theme => {
       type: color1,
       typePrimitive: "#437fff",
       usedProperties: "#ae5dff",
-      variable: "#cfcfcf",
+      variable: "#cfcfcf"
     }
   });
 };
