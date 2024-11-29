@@ -54,13 +54,15 @@
   },
   "devDependencies": {
     "@types/node": "^22.10.1",
+    "@vscode/vsce": "^3.2.1",
     "nodemon": "^3.1.7",
     "ts-node": "^10.9.2",
     "typescript": "^5.7.2"
   },
   "scripts": {
     "build": "tsc && node dist/index.js",
-    "watch": "nodemon"
+    "watch": "nodemon",
+    "package": "vsce package"
   },
   "dependencies": {
     "@types/color": "^4.2.0",
