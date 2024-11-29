@@ -4,6 +4,11 @@
   "description": "Pack of various dark and light themes.",
   "publisher": "StephaneAdeso",
   "version": "1.1.2",
+  "scripts": {
+    "build": "tsc && node dist/index.js",
+    "watch": "nodemon",
+    "package": "vsce package"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/StephaneAdeso/adeso-themes-pack"
@@ -58,11 +63,6 @@
     "nodemon": "^3.1.7",
     "ts-node": "^10.9.2",
     "typescript": "^5.7.2"
-  },
-  "scripts": {
-    "build": "tsc && node dist/index.js",
-    "watch": "nodemon",
-    "package": "vsce package"
   },
   "dependencies": {
     "@types/color": "^4.2.0",
