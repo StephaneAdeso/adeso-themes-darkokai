@@ -7,6 +7,7 @@ To review:
 - sass. media queries variables (**lenguaje engine issue**)
 - css. media queries variables and functions (**lenguaje engine issue**)
 - dart. Some punctuations (**lenguaje engine issue**)
+- Python. "this" (**lenguaje engine issue**)
 - Active Indent line color
 - Add border customization on some elements.
 - Check # and . css selector color

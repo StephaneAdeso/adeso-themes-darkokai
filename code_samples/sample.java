@@ -42,11 +42,22 @@ public class dracula {
       1476,
       new String[] { "Sunlight", "Garlic" });
 
-  private date = vampire.birthDate;
+  private Date date = vampire.birthDate;
 
   private doSomething(){
-      if (13>=5)
+      if (13>=5){
         vampire.calcAge();        
       }
 
+  // Código en Java
+  for(String key:invalidControls.keySet())
+  {
+    this.errorMessages.get(key).put("message", this.labels.errors.VA0006);
+    this.errorMessages.get(key).put("hasError", true);
+    if(exception != null && exception.errors.length > 0){
+      System.out.println("hello");
+    }
+
+  }
+ }
 }

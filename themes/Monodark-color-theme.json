@@ -128,7 +128,8 @@
       "scope": [
         "keyword",
         "variable.language",
-        "keyword.operator.new"
+        "keyword.operator.new",
+        "keyword.operator.expression"
       ],
       "settings": {
         "foreground": "#eb5493"
@@ -579,7 +580,9 @@
     {
       "name": "PYTHON used property",
       "scope": [
-        "meta.attribute.python"
+        "meta.attribute.python",
+        "constant.other.caps.python",
+        "constant.language.python"
       ],
       "settings": {
         "foreground": "#ae5dff"
@@ -693,6 +696,16 @@
       ],
       "settings": {
         "foreground": "#eb5493"
+      }
+    },
+    {
+      "name": "constant properties",
+      "scope": [
+        "variable.other.constant.property.ts",
+        "support.variable.property.ts"
+      ],
+      "settings": {
+        "foreground": "#ae5dff"
       }
     }
   ]

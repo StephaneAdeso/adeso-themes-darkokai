@@ -29,7 +29,7 @@ export function getGenericColors(palette: Palette) {
     },
     {
       name: " keyword. if, this, new ,etc",
-      scope: ["keyword", "variable.language", "keyword.operator.new"],
+      scope: ["keyword", "variable.language", "keyword.operator.new", "keyword.operator.expression"],
       settings: {
         foreground: palette.code.keyword,
       },

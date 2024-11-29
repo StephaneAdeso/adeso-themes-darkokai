@@ -16,5 +16,12 @@ export function getTypescriptColors(palette: Palette) {
         foreground: palette.code.keyword,
       },
     },
+    {
+      name: "constant properties",
+      scope: ["variable.other.constant.property.ts", "support.variable.property.ts"],
+      settings: {
+        foreground: palette.code.usedProperties,
+      },
+    }
   ];
 }

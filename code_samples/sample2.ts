@@ -136,6 +136,10 @@ class CreateFileDropProvider implements vscode.DocumentDropEditProvider {
   myenum: typeof EnumEntityType = EnumEntityType;
   myString: typeof string = "hello";
 
+  myObj = {
+    name: "hello",
+    age: 65
+  }
   doSomething() {
 
     const invoiceData = {
@@ -155,6 +159,11 @@ class CreateFileDropProvider implements vscode.DocumentDropEditProvider {
     super();
 
   }
+
+  deleteAge() {
+    delete myObj[age];
+  }
+
   async provideDocumentDropEdits(_document: vscode.textDocument, _position: vscode.Position.dataTranfer: any) {
     const pngFile = _document.get('image/png')?.asFile();
     if (!pngFile && _document) {
@@ -179,4 +188,13 @@ var trigger = "2",
   regexp = new RegExp('^[1-9]\d{0,2}$'),
   test = regexp.test(trigger);
 alert(test + ""); // will display true
+
+Object.keys(invalidControls).forEach((key) => {
+  this.errorMessages[key]['message'] = this.labels.errors.VA0006;
+  this.errorMessages[key]['hasError'] = true;
+})
+
+if (exception?.errors.length > 0) {
+  console.log("hello");
+}
 

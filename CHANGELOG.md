@@ -6,6 +6,13 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ---
 
+## [1.1.2] 25-08-2023
+
+### Added
+- Typescript, Java and Python samples
+### Fixed
+- Typescript delete keyword, a constant property.
+
 ## [1.1.1] 24-08-2023
 
 ### Added

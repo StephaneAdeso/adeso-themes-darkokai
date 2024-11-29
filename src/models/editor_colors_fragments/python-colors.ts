@@ -44,7 +44,7 @@ export function getPythonColors(palette: Palette) {
     },
     {
       name: "PYTHON used property",
-      scope: ["meta.attribute.python"],
+      scope: ["meta.attribute.python", "constant.other.caps.python", "constant.language.python"],
       settings: {
         foreground: palette.code.usedProperties,
       },

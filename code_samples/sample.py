@@ -76,6 +76,14 @@ class Vampire:
 
   def calc_age(self):
     return self.deathDate - self.birthDate
+  
+  for key in invalidControls.keys():
+    this.errorMessages[key]["message"] = this.labels.errors.VA0006
+    this.errorMessages[key]["hasError"] = True
+    if exception is not None and len(exception.errors) > 0:
+        print("hello")
+
+
 
 # ...there was a guy named Vlad
 
